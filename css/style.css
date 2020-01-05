@@ -22,8 +22,8 @@ h4{
 p {
 text-align: center;
 color: rgb(20, 35, 247);
-font-size: 20px;
-font-family: monospace;
+font-size: 30px;
+font-family: 'Baloo Bhai', cursive;
 }
 ul{
 list-style: square;
@@ -35,18 +35,64 @@ li{
 body{
   background-color:rgb(64, 62, 57);
 }
+a {
+  color: orange;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: #F2545B;
+}
+a:active, a:focus {
+  color: teal;
+}
 #parent{
 display:inline-flex;
 }
 .boxed{
   width: 250px;
-  padding: 10px;
-  border: 5px solid pink;
+  padding: 20px;
+  border: 10px solid pink;
   margin:0;
   float:left;
 }
 .paragraph{
   background-color:#98EEF7;
+  border: 10px solid blue;
   float: right;
-
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #40a977;
+    border-radius: 50%;
+    float: left;
+}
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: #40a977;
+  float: right;
+}
+.center{
+  text-align: center;
+  font-size: 30px;
+}
+.trapezoid {
+	border-bottom: 75px solid #40a977;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	height: 20px;
+	width: 125px;
+}
+.triangle{
+	width:0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #40a977;
+}
+#shapes{
+display:flex;
 }
