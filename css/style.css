@@ -35,6 +35,11 @@ li{
 body{
   background-color:rgb(64, 62, 57);
 }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 a {
   color: orange;
 }
@@ -61,6 +66,9 @@ display:inline-flex;
   background-color:#98EEF7;
   border: 10px solid blue;
   float: right;
+}
+.circle, .rectangle, .trapezoid, .triangle {
+  margin: 0 30px;
 }
 .circle {
     width: 150px;
@@ -95,4 +103,11 @@ display:inline-flex;
 }
 #shapes{
 display:flex;
+}
+img {
+    height: 200px;
+}
+
+img.blur {
+    filter: blur(3px);
 }
